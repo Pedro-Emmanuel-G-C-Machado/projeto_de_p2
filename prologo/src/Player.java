@@ -48,7 +48,7 @@ else{
 public void showEnergy(boolean end ){
 if(end){
     System.out.println("Sua energia final é: " + this.energy);
-
+    
 }
 else{
     System.out.println("Sua energia está em: " + this.energy);
