@@ -5,8 +5,8 @@ public class Capitulos {
     String narrativa; 
     int alteracaoDeEnergia;
     String escolhas[];
-    public Capitulos(){
-        escolhas = new String[2];
+    public Capitulos(int qt){
+        escolhas = new String[qt];
     }
     public void mostrar(Player criarPersonagem ){
         System.out.println(narrativa);
@@ -18,17 +18,24 @@ public class Capitulos {
     }
     public int escolha(Scanner texto){
        String armazenar = texto.nextLine();
+       boolean opcaoValida = false; 
     
-        while(!armazenar.equalsIgnoreCase( escolhas[0]) && !armazenar.equalsIgnoreCase(  escolhas[1])){
-            System.out.println("Opcao invalida digite novamente.");
-            armazenar = texto.nextLine();
+    
+        while(!opcaoValida){
+            for (int index = 0; index < escolhas.length; index++) {
+                if(escolhas[index].equalsIgnoreCase(armazenar)){
+                    opcaoValida = true;
+
+                    return index;
+                }
+            }
+            if(!opcaoValida){ 
+                System.out.println("Opcao invalida digite novamente.");
+                armazenar = texto.nextLine();
+            }
         }
-        if(armazenar.equalsIgnoreCase(escolhas[0])){
-            return 1;
-        }
-        else{
-            return 2;
-        }
+        return -1;
+       
     }
     
 }

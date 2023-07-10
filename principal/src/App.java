@@ -22,7 +22,7 @@ public class App{
 
     
     if(player1.apto()){
-      Capitulos capitulo_0 = new Capitulos();
+      Capitulos capitulo_0 = new Capitulos(2);
       System.out.println("----- Capitulo 0 -------");
       capitulo_0.narrativa = "Bem, senhor(a):" + player1.name + ", você  quer ser de qual  força armada, infelizmente  temos vagas apenas para o exercito e a marinha, qual é a sua escoolha, O exercito ou a marinha ? ";
       capitulo_0.escolhas[0] = "exercito";
@@ -30,7 +30,7 @@ public class App{
       capitulo_0.alteracaoDeEnergia= 0;
       capitulo_0.mostrar( player1);
       if(capitulo_0.escolha(texto) == 1){
-        Capitulos capitulo_1 = new Capitulos();
+        Capitulos capitulo_1 = new Capitulos(2);
         capitulo_1.narrativa = "Bom, aqui o senhor(a): " + player1.name + ", vai para os testes de aptidao fisica tem que fazer cinco flexoes, tres barras e vinte abdominais. Voce quer fazer agora ou deixar para amanha ? O que voce quer, hoje ou amanha ?";
         capitulo_1.escolhas[0] = "hoje";
         capitulo_1.escolhas[1] = "amanha";
@@ -45,7 +45,7 @@ public class App{
         
       }
       else{
-        Capitulos capitulo_2 = new Capitulos();
+        Capitulos capitulo_2 = new Capitulos(2);
         capitulo_2.narrativa = "Certo, voce tem que fazer teste de apitidao fisica, sao dois quilometros de corrida, tres quilometros e meio de natcao no mar, tres barras e quarenta abdominais. Voce quer fazer  hoje ou  amanha ?";
         capitulo_2.escolhas[0] = "hoje";
         capitulo_2.escolhas[1]= "amanha";
