@@ -12,7 +12,7 @@ public class Player {
 public void fatigue(int value){
     this.energy -= value;
     if(energy >= 10 ){
-    System.out.println("Você está bem, com: " + energy + "de energia.");
+    System.out.println("Você está bem, com: " + energy + " de energia.");
     }
     else if (energy > 0 ){
         System.out.println ("Cuidado você está ficando com pouca energia.");
