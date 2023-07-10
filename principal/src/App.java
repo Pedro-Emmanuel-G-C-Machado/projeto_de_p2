@@ -43,6 +43,7 @@ public class App{
           player1.treinoNow = false;
         }
         
+        
       }
       else{
         Capitulos capitulo_2 = new Capitulos();
