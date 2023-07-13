@@ -5,7 +5,9 @@ public class Player {
      int energy = 100; // energia
      int age; // idade
     String forces  ;// força armada.
+    int life = 1000;
     boolean treinoNow = true;
+    boolean die = false;
 
 // fatigue é igual fadiga e value é igual  valor, não se confunde. 
 
@@ -82,6 +84,42 @@ System.out.println("Você é muito velho para fazer qualquer coisa  aqui, suma d
 
 
 }
+// função para dano 
+/**
+ * @param value
+ */
+public void damage( int value){
+    this.life -= value;
+    if(life >= 100 ){
+        System.out.println("Você está sem nehum ferimento e está com: " + life + ", não se preocupe.");
+         
+    }
+    else if( life >= 10 && life < 100 ){
+        System.out.println("Você já está com vários ferimentos busque alguma forma de se recuperar, pois voce esta com : " + life );
+    }
+    else if (life >=1 && life < 10 ){
+        System.out.println("Voce esta criticamente ferido, procure um medico !");
+    }
+     else{
+        System.out.println("Você morreu.");
+        die = true;
+     }
+}
+
+public void recover(int value){
+    life += value;
+    if(life >= 1000){
+  System.out.println("Voce está recuperado.");
+  energy = 1000; 
+
+    }
+else{
+    System.out.println("Você esta se recuperando mas , está com: " + life + ".");
+}
+
+
+}
+
 
 // aqui é a parte da força armada.
 public boolean apto(){
