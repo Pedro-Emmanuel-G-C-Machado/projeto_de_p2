@@ -1,29 +1,38 @@
+import java.util.ArrayList;
 import java. util. Scanner;
 
 
 public class Capitulos {
+    Player jogador;
+    Scanner leitor; 
     String narrativa; 
     int alteracaoDeEnergia;
-    String escolhas[];
-    public Capitulos(int qt){
-        escolhas = new String[qt];
+    ArrayList<Escolhas> Lescolhas; 
+    public Capitulos(Player criarPersonagem, Scanner texto){
+        Lescolhas =  new ArrayList<Escolhas>();
+        jogador = criarPersonagem; 
+        leitor = texto;
+
     }
-    public void mostrar(Player criarPersonagem ){
+    private void mostrar(Player criarPersonagem ){
         System.out.println(narrativa);
-               
-
+        for (int i = 0; i < Lescolhas.size(); i++) {
+            System.out.println(Lescolhas.get(i).getTexto());
+            
+        }
+    
         criarPersonagem.fatigue(alteracaoDeEnergia);
-
+  
 
     }
-    public int escolha(Scanner texto){
+    private int choice(Scanner texto){
        String armazenar = texto.nextLine();
        boolean opcaoValida = false; 
     
     
         while(!opcaoValida){
-            for (int index = 0; index < escolhas.length; index++) {
-                if(escolhas[index].equalsIgnoreCase(armazenar)){
+            for (int index = 0; index < Lescolhas.size(); index++) {
+                if(Lescolhas.get(index).getTexto().equalsIgnoreCase(armazenar)){
                     opcaoValida = true;
 
                     return index;
@@ -36,6 +45,18 @@ public class Capitulos {
         }
         return -1;
        
+    }
+    public void executar() {
+        mostrar(jogador);
+        if(Lescolhas.size() > 0){ 
+            int preferencia = choice(leitor);
+            Lescolhas.get(preferencia).executar();  
+              
+        }
+        
+    }
+    public void adicionarEscolhas(String texto , Capitulos proximo){
+        Lescolhas.add(new Escolhas(texto, proximo));
     }
     
 }

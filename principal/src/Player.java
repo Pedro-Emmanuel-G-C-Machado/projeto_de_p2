@@ -123,7 +123,7 @@ else{
 
 // aqui é a parte da força armada.
 public boolean apto(){
-    return age >= 18 && age < 40 && treinoNow; 
+    return age >= 18 && age < 40; 
     
 }
 
