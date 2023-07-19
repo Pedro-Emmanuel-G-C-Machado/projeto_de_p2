@@ -15,11 +15,13 @@ public class Capitulos {
 
     }
     private void mostrar(Player criarPersonagem ){
+       
         System.out.println(narrativa);
         for (int i = 0; i < Lescolhas.size(); i++) {
             System.out.println(Lescolhas.get(i).getTexto());
             
         }
+    
     
         criarPersonagem.fatigue(alteracaoDeEnergia);
   

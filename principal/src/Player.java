@@ -14,13 +14,13 @@ public class Player {
 public void fatigue(int value){
     this.energy -= value;
     if(energy >= 10 ){
-    System.out.println("Você está bem, com: " + energy + " de energia.");
+    System.out.println("Você esta bem, com: " + energy + " de energia.");
     }
     else if (energy > 0 ){
-        System.out.println ("Cuidado você está ficando com pouca energia.");
+        System.out.println ("Cuidado voce esta ficando com pouca energia.");
     }
    else{
-        System.out.println("Você está sem como fazer mais nada não  tem energia, vá descansar");
+        System.out.println("Você esta sem como fazer mais nada nao  tem energia, va descansar");
 
    }
 
@@ -32,12 +32,12 @@ public void fatigue(int value){
  public void rest( int value){
     this.energy += value;
     if(energy >= 100){
-  System.out.println("Você está descansado");
+  System.out.println("Voce esta descansado");
   energy = 100; 
 
     }
 else{
-    System.out.println("Você esta se recuperando mas , está com: " + energy + ".");
+    System.out.println("Voce esta se recuperando mas , esta com: " + energy + ".");
 }
 
 }
@@ -52,17 +52,17 @@ if(end){
     
 }
 else{
-    System.out.println("Sua energia está em: " + this.energy);
+    System.out.println("Sua energia esta em: " + this.energy);
 }
 }
 
 public void criarPersonagem(Scanner texto){
          
-        System.out.println("Olá, bem vindo ao recrutamento miltar, qual é o seu nome?");
+        System.out.println("Ola, bem vindo ao recrutamento miltar, qual é o seu nome?");
         name = texto.nextLine(); 
         System.out.println("Certo senhor(a):" + name);
     
-        System.out.println("Qual é a sua idade?"); 
+        System.out.println("Qual e a sua idade?"); 
         age = texto.nextInt();
         texto.nextLine();
     
@@ -73,12 +73,12 @@ System.out.println("Você é muito velho para fazer qualquer coisa  aqui, suma d
 
 }
         else if(apto()){
-            System.out.println("Certo você é apto, para a próxima etapa da seleção de ingresso, prossiga. ");
+            System.out.println("Certo voce e apto, para a próxima etapa da seleção de ingresso, prossiga. ");
                                           System.out.println("--------"); 
 
         }
         else{
-            System.out.println("Você não tem idade suficiente para servir ao seu país, vai ter que servir de uma outra forma,"+ name + ". PRÓXIMO !");
+            System.out.println("Voce nao tem idade suficiente para servir ao seu pais, vai ter que servir de uma outra forma,"+ name + ". PROXIMO !");
             
 }
 
@@ -101,7 +101,7 @@ public void damage( int value){
         System.out.println("Voce esta criticamente ferido, procure um medico !");
     }
      else{
-        System.out.println("Você morreu.");
+        System.out.println("Voce morreu.");
         die = true;
      }
 }
@@ -109,12 +109,12 @@ public void damage( int value){
 public void recover(int value){
     life += value;
     if(life >= 1000){
-  System.out.println("Voce está recuperado.");
+  System.out.println("Voce esta recuperado.");
   energy = 1000; 
 
     }
 else{
-    System.out.println("Você esta se recuperando mas , está com: " + life + ".");
+    System.out.println("Voce esta se recuperando mas , esta com: " + life + ".");
 }
 
 
