@@ -17,7 +17,7 @@ public void fatigue(int value){
     System.out.println("Você esta bem, com: " + energy + " de energia.");
     }
     else if (energy > 0 ){
-        System.out.println ("Cuidado voce esta ficando com pouca energia.");
+        System.out.println ("Cuidado voce    esta ficando com pouca energia.");
     }
    else{
         System.out.println("Você esta sem como fazer mais nada nao  tem energia, va descansar");
@@ -58,7 +58,7 @@ else{
 
 public void criarPersonagem(Scanner texto){
          
-        System.out.println("Ola, bem vindo ao recrutamento miltar, qual é o seu nome?");
+        System.out.println("Ola, bem vindo ao recrutamento miltar, qual e o seu nome?");
         name = texto.nextLine(); 
         System.out.println("Certo senhor(a):" + name);
     
