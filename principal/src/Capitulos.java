@@ -3,12 +3,25 @@ import java. util. Scanner;
 
 
 public class Capitulos {
-    Player jogador;
-    Scanner leitor; 
-    String narrativa; 
-    int alteracaoDeEnergia;
-    ArrayList<Escolhas> Lescolhas; 
-    public Capitulos(Player criarPersonagem, Scanner texto){
+ private Player jogador;
+ private Scanner leitor;
+ private String narrativa;
+private int alteracaoDeEnergia;
+ private ArrayList<Escolhas> Lescolhas;
+
+public void adicionarEscolhas(Escolhas e){
+    this.Lescolhas.add(e);
+}
+
+  public void setNarrativa(String narrativa) {
+    this.narrativa = narrativa;
+}
+ 
+public void setAlteracaoDeEnergia(int alteracaoDeEnergia) {
+    this.alteracaoDeEnergia = alteracaoDeEnergia;
+}
+ 
+ public Capitulos(Player criarPersonagem, Scanner texto){
         Lescolhas =  new ArrayList<Escolhas>();
         jogador = criarPersonagem; 
         leitor = texto;
