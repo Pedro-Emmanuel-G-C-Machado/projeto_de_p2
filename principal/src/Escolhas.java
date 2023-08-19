@@ -4,6 +4,7 @@ public class Escolhas {
         return texto;
     }
     private Capitulos proximo;
+
     public Escolhas(String texto, Capitulos proximo) {
         this.texto = texto;
         this.proximo = proximo;
@@ -12,5 +13,6 @@ public class Escolhas {
         this.proximo.executar();
         
     }
+    
     
 }

@@ -114,6 +114,7 @@ public void recover(int value){
 
     }
 else{
+
     System.out.println("Voce esta se recuperando mas , esta com: " + life + ".");
 }
 

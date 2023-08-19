@@ -1,0 +1,137 @@
+CAPITULO
+cap0
+Bem, senhor(a): player1.name  , você  quer ser de qual  força armada, infelizmente  temos vagas apenas para o exercito e a marinha, qual é a sua escoolha, O exercito ou a marinha ?&
+0
+Desmond
+CAPITULO
+cap1
+Bom, aqui o senhor(a):  player1.name , vai para os testes de aptidao fisica tem que fazer cinco flexoes, tres barras e vinte abdominais. Voce quer fazer agora ou deixar para amanha ? O que voce quer, hoje ou amanha ?&
+0
+Desmond
+CAPITULO
+cap1.1
+Voce estava descansado, mas não conseguiu fazer os exercicios, você vai ter que ir embora filho.
+0
+Desmond
+CAPITULO
+cap1.2
+Voce estava preparado para fazer todos os exercicios e foi para o escritorio assinar o contrato para ser encaminhado para o treinamento. Parabens, player1.name,voce esta no airborn, cia 22°, bem vindo ao exercito.
+0
+Desmond
+CAPITULO
+cap2
+Certo, voce tem que fazer teste de apitidao fisica, sao dois quilometros de corrida, tres quilometros e meio de natcao no mar, tres barras e quarenta abdominais. Voce quer fazer  hoje ou  amanha ?&
+0
+Desmond
+CAPITULO
+cap2.1
+Você estava enfadado de mais para conseguir nadar e correr tanto e foi reprovado, pode ir embora garoto.
+0
+Desmond
+CAPITULO
+cap2.2
+Voce ficou com uma boa disposicao, e conseguiu nadar e correr sem muitos problemas e foi encaminhado para o escritório para assinar o contrato com a marinha, e vai para o treinamento, player1.name,você está na marinha parabéns.&
+0
+Desmond
+CAPITULO
+cap3
+Depois do treinamento de paraquedista, voce conheceu player2.name e viraram parceiros de farda, quando voce terminou voces foram colocados na operacao do dia D, porem voces nao sabiam o que iam fazer voce estava em um avião cargueiro, ja anoitecendo com mais dez paraquedistas, voce percebia as bombas e as defesas antiaeras destruindo os outros avioes, ate que voce se depara com &   o seu oficial  fazendo movimentos com as maos para indicar o momento do salto e voce se organiza para isso, nesse momento & um chaqualhao acontece no aviao, que foi atingida por um disparo, e voce e obrigado a saltar, mas antes disso player2.name,ficou meio preso no equipamento o que voce faz ? &
+0
+Marshall
+CAPITULO
+cap3.1
+Voce descidiu ajudar o  player2.name voce correu e quando chegou perto, viu que estava predendendo ele e rapidamente, coseguiu tiralo dali, mas isso teve um custo pela reacao rapida custou um pouco de energia depois dissos voces sairam do aviao o mais rapido possivel. & ja no ceu descendo voce percebe que o aviao explodiu poco tempo depois de voces sairem, e depois de se voltarem para o chao voce ve um campo vazio, que nao tinha nenhum sinal de tropas, mas voce fica com sua M1 Garand em maos e fica esperando por um combate, no entanto quando voce aterriza nao ve nenhum alemao &  e tambem ao mesmo tempo nenhum sinal do seu pelotao, e esta,e  player2.name  quiz procurar os outros, mas tambem reconheceu que era muito tarde para isso e deixou no seu encargo de descidir você vai ficar e montar um acampamento ou vai procurar o seu pelotao ? & 
+5
+Marshall
+CAPITULO
+cap3.2
+Voce foi para a beira do aviao decidido em saltar, mas se arrempedeu e quiz voltar e quando você estava se aproximando dele, o aviao explode e voces dois morrem junto com o piloto  
+0
+Marshall
+CAPITULO
+cap4
+Durante o treinamento voce fica amigo  player2.name e se consideram irmaos de farda e na marinha voces ficam na parte de operar pecas de artilharias navais &  e depois do treinamento ele e voce foi desiginado para as ilhas do pacifico estava no atol de Midway, estava ensolarado, e tranquilo não viam nada alem de oceano ate que ouviram um aviao e em seguida um som de explosão com essa explosão, &  eles correram para os postos e começaram a disparar nos aviões japoneses, enquanto eles atiravam viram um aviao ja danificado vindo em direcao deles, mais especificamente para o navio e  player2.name  disse para voce destruir de vez o aviao, mas voce sentiu que poderia usar de alguma forma. & 
+0
+Desmond
+CAPITULO
+cap4.1
+Voce seguiu a sugestao dele e destruiu de vez o aviao, mas a batalha ainda nao tinha acabado e com isso voce  se vira para um encouracado japones que estava se virando para voce disparando no navio, mas o dano nao foi grande para os marinheiros se preocupar mas eles sairam da peca de artilharia & quando saiu foram mandados para a cabine de comando, voce viu o seu comandante desesperado, pois nao sabia como sair dessa  situacao com isso voces dois recebe uma ordem de ir para o paiol para pegar mais municao, so que voce ouve mais um explosao e o navio dessa vez ficou bem danificado
+5
+Desmond
+CAPITULO
+cap4.2
+Voce seguiu seu pensamento e não destruiu, o aviao caiu no conves do navio nao explodiu  e voce saiu rapidamente foi em direcao ao aviao e voce conseguiu abrir a  cabine e la o piloto estava morto  e voce conseguiu uma carta e voce levou imediatamente para a cabine de comando e la voce entregou imediatamente para o seu comandante e ele extremamente satisfeito ele pediu para que esperasse a proxima ordem.
+10
+Desmond
+ESCOLHA
+cap0
+exercito
+cap1
+ESCOLHA
+cap0
+marinha
+cap2
+ESCOLHA
+cap1
+amanha
+cap1.1
+ESCOLHA
+cap1
+hoje
+cap1.2
+ESCOLHA
+cap1.2
+continuar
+cap3
+ESCOLHA
+cap2
+hoje
+cap2.1
+ESCOLHA
+cap2
+amanha
+cap2.2
+ESCOLHA
+cap2.2
+continuar
+cap4
+ESCOLHA
+cap3
+ajudar
+cap3.1
+ESCOLHA
+cap3
+saltar
+cap3.2
+ESCOLHA
+cap4
+destruir
+cap4.1
+ESCOLHA
+cap4
+poupar
+cap4.2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
