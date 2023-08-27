@@ -47,6 +47,29 @@ public class App{
               listaDeCaps.get(capOrigem).adicionarEscolhas(escolha, destino);
               
            }
+           else if(linhaLida.equalsIgnoreCase("CAPITULOIMAGEM")){
+            String nomeCapitulo = leitorDeARQ.nextLine();
+            String narrativa = leitorDeARQ.nextLine(); 
+            int energia = Integer.parseInt(leitorDeARQ.nextLine()) ;
+            String nomeDoNPC = leitorDeARQ.nextLine();
+            String imagem = "";
+            while(true){
+                String linhatemporaria = leitorDeARQ.nextLine();
+                if(linhatemporaria.equalsIgnoreCase("Fim")){
+                  break;
+                }
+                imagem = imagem+linhatemporaria + "\n"; 
+
+            }
+            CapituloImagem temporario = new CapituloImagem(player1,texto);
+            listaDeCaps.put(nomeCapitulo,temporario);
+            temporario.setNarrativa(narrativa);
+            temporario.setAlteracaoDeEnergia(energia);
+            temporario.setNpc(nomeDoNPC);
+            temporario.setImagem(imagem);
+          
+
+          }
 
 
         }

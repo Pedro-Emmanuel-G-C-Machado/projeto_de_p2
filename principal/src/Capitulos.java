@@ -3,12 +3,12 @@ import java. util. Scanner;
 
 
 public class Capitulos {
- private Player jogador;
- private Scanner leitor;
- private String narrativa;
- private int alteracaoDeEnergia;
- private ArrayList<Escolhas> Lescolhas;
- private String npc ;
+ protected Player jogador;
+ protected Scanner leitor;
+ protected String narrativa;
+ protected int alteracaoDeEnergia;
+ protected ArrayList<Escolhas> Lescolhas;
+ protected String npc ;
  
  
 
@@ -30,7 +30,7 @@ public void setAlteracaoDeEnergia(int alteracaoDeEnergia) {
         leitor = texto;
 
     }
-    private void mostrar(Player criarPersonagem ){
+    protected void mostrar(Player criarPersonagem ){
        
         System.out.println(narrativa.replace("player1.name", jogador.name ).replace("player2.name", npc ).replace("&", "\n"));
         for (int i = 0; i < Lescolhas.size(); i++) {
@@ -43,7 +43,7 @@ public void setAlteracaoDeEnergia(int alteracaoDeEnergia) {
   
 
     }
-    private int choice(Scanner texto){
+    protected int choice(Scanner texto){
        String armazenar = texto.nextLine();
        boolean opcaoValida = false; 
     

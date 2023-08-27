@@ -33,11 +33,26 @@ cap2.2
 Voce ficou com uma boa disposicao, e conseguiu nadar e correr sem muitos problemas e foi encaminhado para o escritório para assinar o contrato com a marinha, e vai para o treinamento, player1.name,você está na marinha parabéns.&
 0
 Desmond
-CAPITULO
+CAPITULOIMAGEM
 cap3
 Depois do treinamento de paraquedista, voce conheceu player2.name e viraram parceiros de farda, quando voce terminou voces foram colocados na operacao do dia D, porem voces nao sabiam o que iam fazer voce estava em um avião cargueiro, ja anoitecendo com mais dez paraquedistas, voce percebia as bombas e as defesas antiaeras destruindo os outros avioes, ate que voce se depara com &   o seu oficial  fazendo movimentos com as maos para indicar o momento do salto e voce se organiza para isso, nesse momento & um chaqualhao acontece no aviao, que foi atingida por um disparo, e voce e obrigado a saltar, mas antes disso player2.name,ficou meio preso no equipamento o que voce faz ? &
 0
 Marshall
+    ____                                                          
+     \\  `.                                                        
+      \\   `.                                                      
+       \ \   `.                                                    
+        \\    `.                                                   
+        :. . . . `._______________________.-~|~~-._                
+        \                                 ---'-----`-._            
+         /"""""""/             _...---------..         ~-._________
+        //     .`_________  .-`           \ .-~           /        
+       //    .'       ||__.~             .-~_____________/         
+      //___.`           .~            .-~                          
+                      .~           .-~                             
+                    .~         _.-~                                
+                    `-_____.-~'                               
+Fim
 CAPITULO
 cap3.1
 Voce descidiu ajudar o  player2.name voce correu e quando chegou perto, viu que estava predendendo ele e rapidamente, coseguiu tiralo dali, mas isso teve um custo pela reacao rapida custou um pouco de energia depois dissos voces sairam do aviao o mais rapido possivel. & ja no ceu descendo voce percebe que o aviao explodiu poco tempo depois de voces sairem, e depois de se voltarem para o chao voce ve um campo vazio, que nao tinha nenhum sinal de tropas, mas voce fica com sua M1 Garand em maos e fica esperando por um combate, no entanto quando voce aterriza nao ve nenhum alemao &  e tambem ao mesmo tempo nenhum sinal do seu pelotao, e esta,e  player2.name  quiz procurar os outros, mas tambem reconheceu que era muito tarde para isso e deixou no seu encargo de descidir você vai ficar e montar um acampamento ou vai procurar o seu pelotao ? & 
@@ -48,11 +63,18 @@ cap3.2
 Voce foi para a beira do aviao decidido em saltar, mas se arrempedeu e quiz voltar e quando você estava se aproximando dele, o aviao explode e voces dois morrem junto com o piloto  
 0
 Marshall
-CAPITULO
+CAPITULOIMAGEM
 cap4
 Durante o treinamento voce fica amigo  player2.name e se consideram irmaos de farda e na marinha voces ficam na parte de operar pecas de artilharias navais &  e depois do treinamento ele e voce foi desiginado para as ilhas do pacifico estava no atol de Midway, estava ensolarado, e tranquilo não viam nada alem de oceano ate que ouviram um aviao e em seguida um som de explosão com essa explosão, &  eles correram para os postos e começaram a disparar nos aviões japoneses, enquanto eles atiravam viram um aviao ja danificado vindo em direcao deles, mais especificamente para o navio e  player2.name  disse para voce destruir de vez o aviao, mas voce sentiu que poderia usar de alguma forma. & 
 0
 Desmond
+                                 |                               
+                            _   _|_   _                          
+                           (_)-/   \-(_)                         
+    _                         /\___/\                         _  
+   (_)_______________________( ( . ) )_______________________(_) 
+                              \_____/                         
+Fim
 CAPITULO
 cap4.1
 Voce seguiu a sugestao dele e destruiu de vez o aviao, mas a batalha ainda nao tinha acabado e com isso voce  se vira para um encouracado japones que estava se virando para voce disparando no navio, mas o dano nao foi grande para os marinheiros se preocupar mas eles sairam da peca de artilharia & quando saiu foram mandados para a cabine de comando, voce viu o seu comandante desesperado, pois nao sabia como sair dessa  situacao com isso voces dois recebe uma ordem de ir para o paiol para pegar mais municao, so que voce ouve mais um explosao e o navio dessa vez ficou bem danificado
